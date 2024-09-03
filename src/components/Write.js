@@ -17,21 +17,13 @@ export default function Write() {
         alert("data saved successfully");
       })
       .catch((error) => {
-        alert("error: ", error.message);
+        alert(error.message);
       });
   };
   return (
     <div>
-      <input
-        type="text"
-        value={inputValue1}
-        onChange={(e) => setInputValue1(e.target.value)}
-      />
-      <input
-        type="text"
-        value={inputValue2}
-        onChange={(e) => setInputValue2(e.target.value)}
-      />
+      <input type="text" value={inputValue1} onChange={(e) => setInputValue1(e.target.value)} />
+      <input type="text" value={inputValue2} onChange={(e) => setInputValue2(e.target.value)} />
       <br />
       <button onClick={saveData}>SAVE DATA</button>
     </div>
