@@ -1,15 +1,15 @@
 import { useState } from "react";
 
-import { addDoc, collection } from "firebase/firestore";
+import { doc, setDoc } from "firebase/firestore";
 import { db } from "../firebaseConfig";
 
 export default function Home() {
   const [file, setFile] = useState(null);
 
-  const saveJsonToFirestore = async (collectionName, jsonData) => {
+  const saveJsonToFirestore = async (collectionName, documentId, data) => {
     try {
-      const docRef = await addDoc(collection(db, collectionName), jsonData);
-      console.log("JSON 데이터가 Firestore에 성공적으로 저장되었습니다. 문서 ID: ", docRef.id);
+      await setDoc(doc(db, collectionName, documentId), data);
+      console.log("JSON 데이터가 Firestore에 성공적으로 저장되었습니다.");
     } catch (e) {
       console.error("Firestore에 데이터를 저장하는 도중 오류 발생: ", e);
     }
@@ -31,8 +31,13 @@ export default function Home() {
           if (typeof result === "string") {
             const jsonData = JSON.parse(result);
             console.log("🚀 ~ reader.onload= ~ jsonData:", jsonData);
-            // await saveJsonToFirestore("collectionName", "documentId", jsonData);
-            await saveJsonToFirestore("clinic-test", jsonData);
+            const clinics = jsonData.clinics;
+
+            clinics.forEach(async (clinic) => {
+              await saveJsonToFirestore("clinics-test", `clinic-${clinic.id}`, clinic);
+            });
+
+            // await saveJsonToFirestore("clinics-test", "documentId", clinics);
           } else {
             console.error("파일의 내용을 읽는 도중 오류 발생: 예상치 못한 데이터 형식입니다.");
           }
