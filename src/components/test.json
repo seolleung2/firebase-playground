@@ -1,0 +1,1223 @@
+{
+    "clinics": [
+        {
+            "id": 0,
+            "name": "이미지치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "394 627 137",
+                    "comment": "구형 (제거예정)"
+                },
+                { "id": 1, "anyDeskId": "1 361 959 781", "commment": "신형" }
+            ],
+            "managerContacts": [],
+            "clinicContact": "1899-8175",
+            "equipments": [
+                { "id": 0, "type": "프린터", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "신형" },
+                { "id": 2, "type": "경화기", "version": "구형" },
+                { "id": 0, "type": "프린터", "version": "블록2.1" }
+            ],
+            "printerIssues": [
+                {
+                    "contents": "2024.08.23 프린터 블록2.1 추가 설치",
+                    "status": "Done"
+                }
+            ],
+            "installationDate": "2023.10.02",
+            "customerType": "B2C",
+            "b2bContract": ""
+        },
+        {
+            "id": 1,
+            "name": "연세365치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 769 222 532",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "최한울 원장님",
+                    "phone": "010-9745-1006"
+                },
+                {
+                    "id": 1,
+                    "name": "이채령 위생사",
+                    "phone": "010-7567-0926"
+                },
+                {
+                    "id": 2,
+                    "name": "황지현 선생님",
+                    "phone": "010-4222-9855"
+                }
+            ],
+            "clinicContact": "0507-1333-2830",
+            "equipments": [
+                { "id": 0, "type": "세척기", "version": "구형" },
+                { "id": 1, "type": "경화기", "version": "구형" },
+                { "id": 2, "type": "프린트", "version": "블록2.1" }
+            ],
+            "printerIssues": [
+                {
+                    "contents": "2024.09.03 구형 프린터 회수",
+                    "status": "Done"
+                }
+            ],
+            "installationDate": "2024.01.03",
+            "customerType": "B2C",
+            "b2bContract": ""
+        },
+        {
+            "id": 2,
+            "name": "나비치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 018 137 972",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "박민 원장님",
+                    "phone": "010-2805-1000"
+                },
+                {
+                    "id": 1,
+                    "name": "이현나 위생사",
+                    "phone": "010-5500-5568"
+                }
+            ],
+            "clinicContact": "053-325-3000",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "구형" },
+                { "id": 2, "type": "프린트", "version": "구형" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/01/08",
+            "customerType": "B2C",
+            "b2bContract": ""
+        },
+        {
+            "id": 3,
+            "name": "리더스진치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 718 575 227",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "전진모 원장님",
+                    "phone": "010-4842-7582"
+                },
+                {
+                    "id": 1,
+                    "name": "이민아 위생사",
+                    "phone": "010-9762-1499"
+                }
+            ],
+            "clinicContact": "0507-1376-2828",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "구형" },
+                { "id": 2, "type": "프린트", "version": "구형" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/01/10",
+            "customerType": "B2C",
+            "b2bContract": ""
+        },
+        {
+            "id": 4,
+            "name": "김포 올바른치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "591 499 575",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "이언직 원장님",
+                    "phone": "010-2818-2804"
+                },
+                {
+                    "id": 1,
+                    "name": "이윤미 위생사",
+                    "phone": "010-8954-3023"
+                }
+            ],
+            "clinicContact": "031-996-4693",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "구형" },
+                { "id": 2, "type": "프린트", "version": "구형" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/01/25",
+            "customerType": "B2C 하이니스",
+            "b2bContract": "하이니스 1/40"
+        },
+        {
+            "id": 5,
+            "name": "제주 아이엠플란트치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 146 240 873",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "조윤자 위생사",
+                    "phone": "010-8684-2578"
+                }
+            ],
+            "clinicContact": "064-747-2800",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "구형" },
+                { "id": 2, "type": "프린트", "version": "구형" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/02/01",
+            "customerType": "B2C",
+            "b2bContract": ""
+        },
+        {
+            "id": 6,
+            "name": "대구 유가수치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 993 377 739",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "김성욱 원장님",
+                    "phone": "010-2993-9363"
+                },
+                {
+                    "id": 1,
+                    "name": "남정민 위생사",
+                    "phone": "010-3829-4125"
+                }
+            ],
+            "clinicContact": "053-615-2080",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "구형" },
+                { "id": 2, "type": "프린트", "version": "블록2" }
+            ],
+            "printerIssues": [
+                {
+                    "contents": "2024.08.14 윈도우 업데이트로 인한 애니데스크 접속 불가 이슈로 방문 조치",
+                    "status": "Done"
+                }
+            ],
+            "installationDate": "2024/02/02",
+            "customerType": "B2C 하이니스",
+            "b2bContract": "하이니스 3/40"
+        },
+        {
+            "id": 7,
+            "name": "왜관 심플란트치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "370 316 732",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "이유빈 원장님",
+                    "phone": "010-4181-8438"
+                },
+                {
+                    "id": 1,
+                    "name": "이효은 위생사",
+                    "phone": "010-8690-0200"
+                }
+            ],
+            "clinicContact": "054-920-0008",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "구형" },
+                { "id": 2, "type": "프린트", "version": "구형" },
+                { "id": 3, "type": "프린트", "version": "블록2" }
+            ],
+            "printerIssues": [
+                {
+                    "contents": "2024.08.27 신형장비 연이은 출력실패로 방문 조치, 초기 레진 수조 이용으로 실패",
+                    "status": "Done"
+                }
+            ],
+            "installationDate": "2024/02/19",
+            "customerType": "B2C",
+            "b2bContract": ""
+        },
+        {
+            "id": 8,
+            "name": "포항 서울제이플란트치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 728 521 041",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "정동민 원장님",
+                    "phone": "010-4546-7741"
+                },
+                {
+                    "id": 1,
+                    "name": "정동영 소장님",
+                    "phone": "010-8686-0158"
+                }
+            ],
+            "clinicContact": "054-727-7528",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "구형" },
+                { "id": 2, "type": "프린트", "version": "구형" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/02/26",
+            "customerType": "B2C",
+            "b2bContract": ""
+        },
+        {
+            "id": 9,
+            "name": "제주 제일플란트",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 272 660 295",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "고혁진 원장님",
+                    "phone": "010-4728-9713"
+                },
+                {
+                    "id": 1,
+                    "name": "고혜진 위생사",
+                    "phone": "010-8662-4357"
+                }
+            ],
+            "clinicContact": "064-755-2828",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "구형" },
+                { "id": 2, "type": "프린트", "version": "구형" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/02/28",
+            "customerType": "AW",
+            "b2bContract": "하이니스 4/40"
+        },
+        {
+            "id": 10,
+            "name": "포천 서울올바로 치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 524 289 221",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "김건우 원장님",
+                    "phone": "010-2130-2804"
+                },
+                {
+                    "id": 1,
+                    "name": "실장님",
+                    "phone": "010-6275-7654"
+                }
+            ],
+            "clinicContact": "0507-1494-7727",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "구형" },
+                { "id": 2, "type": "프린트", "version": "구형" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/03/02",
+            "customerType": "B2C 하이니스",
+            "b2bContract": "하이니스 5/40"
+        },
+        {
+            "id": 11,
+            "name": "천안 삼아이치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "316 612 262",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "김상완 원장님",
+                    "phone": "010-8579-2816"
+                },
+                {
+                    "id": 1,
+                    "name": "진소연 위생사",
+                    "phone": "010-9028-8281"
+                }
+            ],
+            "clinicContact": "041-567-2875",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "구형" },
+                { "id": 2, "type": "프린트", "version": "구형" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/03/14",
+            "customerType": "B2C",
+            "b2bContract": ""
+        },
+        {
+            "id": 12,
+            "name": "서초 서울이을치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 893 420 289",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "강나연 위생사",
+                    "phone": "010-9767-3346"
+                },
+                {
+                    "id": 1,
+                    "name": "박윤호 원장님",
+                    "phone": "010-5284-1031"
+                }
+            ],
+            "clinicContact": "02-595-0102",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "구형" },
+                { "id": 2, "type": "프린트", "version": "구형" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/03/15",
+            "customerType": "B2C",
+            "b2bContract": ""
+        },
+        {
+            "id": 13,
+            "name": "전주 그랜드치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 657 303 595",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "이연화 실장님",
+                    "phone": "010-7587-4344"
+                }
+            ],
+            "clinicContact": "0507-1468-7531",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "구형" },
+                { "id": 2, "type": "프린트", "version": "블록1" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/03/18",
+            "customerType": "퍼스트",
+            "b2bContract": "하이니스 6/40"
+        },
+        {
+            "id": 14,
+            "name": "경주 로이스치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 049 185 424",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "권남연 위생사",
+                    "phone": "010-6317-5276"
+                }
+            ],
+            "clinicContact": "054-772-0003",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "구형" },
+                { "id": 2, "type": "프린트", "version": "구형" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/03/21",
+            "customerType": "AW",
+            "b2bContract": "하이니스 7/40"
+        },
+        {
+            "id": 15,
+            "name": "평택 고덕이래치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 355 856 055",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "박가연 위생사",
+                    "phone": "010-8191-1030"
+                }
+            ],
+            "clinicContact": "031-8029-7582",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "구형" },
+                { "id": 2, "type": "프린트", "version": "구형" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/03/25",
+            "customerType": "B2C",
+            "b2bContract": ""
+        },
+        {
+            "id": 16,
+            "name": "원통 한림치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 470 680 855",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "손희창 원장님",
+                    "phone": "010-8732-6842"
+                },
+                {
+                    "id": 1,
+                    "name": "김준희 위생사",
+                    "phone": "010-4033-1263"
+                }
+            ],
+            "clinicContact": "033-461-7528",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "구형" },
+                { "id": 2, "type": "프린트", "version": "구형" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/03/26",
+            "customerType": "B2C",
+            "b2bContract": ""
+        },
+        {
+            "id": 17,
+            "name": "대구 덕영치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 889 666 996",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "신다영 위생사",
+                    "phone": "010-2168-2050"
+                }
+            ],
+            "clinicContact": "053-420-2666",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "구형" },
+                { "id": 2, "type": "프린트", "version": "구형" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/04/03",
+            "customerType": "AW",
+            "b2bContract": "하이니스 8/40"
+        },
+        {
+            "id": 18,
+            "name": "군산 탑플란트치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 623 106 230",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "박서음 선생님",
+                    "phone": "010-8272-2671"
+                }
+            ],
+            "clinicContact": "063-471-7928",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "구형" },
+                { "id": 2, "type": "프린트", "version": "블록2" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/04/09",
+            "customerType": "퍼스트",
+            "b2bContract": "하이니스 9/40"
+        },
+        {
+            "id": 19,
+            "name": "전주 이튼튼치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 550 380 695",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "홍다정 위생사",
+                    "phone": "010-4532-9398"
+                }
+            ],
+            "clinicContact": "063-232-2275",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "구형" },
+                { "id": 2, "type": "프린트", "version": "블록2" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/05/02",
+            "customerType": "퍼스트",
+            "b2bContract": "하이니스 10/40"
+        },
+        {
+            "id": 20,
+            "name": "창원 기분좋은치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 269 283 948",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "원장님",
+                    "phone": "010-4337-2875"
+                },
+                {
+                    "id": 1,
+                    "name": "김민지 선생님",
+                    "phone": "010-6331-0129"
+                }
+            ],
+            "clinicContact": "055-552-2804",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "구형" },
+                { "id": 2, "type": "프린트", "version": "구형" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/05/14",
+            "customerType": "B2C",
+            "b2bContract": ""
+        },
+        {
+            "id": 21,
+            "name": "제천 로이스치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 997 097 094",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "원장님",
+                    "phone": "010-2849-2804"
+                },
+                {
+                    "id": 1,
+                    "name": "김영수 담당자",
+                    "phone": "010-3459-2804"
+                },
+                {
+                    "id": 2,
+                    "name": "병원폰",
+                    "phone": "010-9437-2882"
+                }
+            ],
+            "clinicContact": "043-648-2828",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "구형" },
+                { "id": 2, "type": "프린트", "version": "구형" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/05/22",
+            "customerType": "AW",
+            "b2bContract": "하이니스 11/40"
+        },
+        {
+            "id": 22,
+            "name": "포항 로이스치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 572 093 758",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "황서윤 선생님",
+                    "phone": "010-8643-8944"
+                }
+            ],
+            "clinicContact": "054-293-2020",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "구형" },
+                { "id": 2, "type": "프린트", "version": "구형" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/05/27",
+            "customerType": "AW",
+            "b2bContract": "하이니스 12/40"
+        },
+        {
+            "id": 23,
+            "name": "부산 영도타임치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 480 654 173",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "원장님",
+                    "phone": "010-5258-6551"
+                },
+                {
+                    "id": 1,
+                    "name": "김남경 위생사",
+                    "phone": "010-7216-4116"
+                }
+            ],
+            "clinicContact": "051-412-2875",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "구형" },
+                { "id": 2, "type": "프린트", "version": "구형" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/06/11",
+            "customerType": "B2C"
+        },
+        {
+            "id": 24,
+            "name": "춘천 서울아이브치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 249 830 264",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "원장님",
+                    "phone": "010-5136-8241"
+                },
+                {
+                    "id": 1,
+                    "name": "안재은 위생사",
+                    "phone": "010-9697-5960"
+                }
+            ],
+            "clinicContact": "033-252-2080",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "신형" },
+                { "id": 2, "type": "프린트", "version": "블록1" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/06/25",
+            "customerType": "B2C",
+            "b2bContract": ""
+        },
+        {
+            "id": 25,
+            "name": "전주 올곧바른치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 371 952 835",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "원장님",
+                    "phone": "010-3600-3322"
+                },
+                {
+                    "id": 1,
+                    "name": "강옥림 선생님",
+                    "phone": "010-3997-9113"
+                }
+            ],
+            "clinicContact": "063-283-2875",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "구형" },
+                { "id": 2, "type": "프린트", "version": "블록1" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/06/27",
+            "customerType": "B2C,테스트 및 연자,퍼스트",
+            "b2bContract": "연자,테스트"
+        },
+        {
+            "id": 26,
+            "name": "익산 모현삼성치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "374 264 911",
+                    "comment": "A2 프린트"
+                },
+                {
+                    "id": 1,
+                    "anyDeskId": "1 376 931 910",
+                    "comment": "A3 프린트"
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "담당자",
+                    "phone": "010-3009-4158"
+                }
+            ],
+            "clinicContact": "063-851-2002",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "신형" },
+                { "id": 2, "type": "프린트", "version": "블록1" },
+                { "id": 3, "type": "프린트", "version": "블록1" }
+            ],
+            "printerIssues": [
+                {
+                    "contents": "24.07.18 프린트 추가 설치",
+                    "status": "Done"
+                }
+            ],
+            "installationDate": "2024/06/28",
+            "customerType": "퍼스트",
+            "b2bContract": "퍼스트 1/30, 퍼스트 2/30 (프린터만)"
+        },
+        {
+            "id": 27,
+            "name": "광주 W화이트치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 438 261 593",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "위승환 원장님",
+                    "phone": "010-9451-1070"
+                },
+                {
+                    "id": 1,
+                    "name": "백지연 선생님",
+                    "phone": "010-5049-6920"
+                }
+            ],
+            "clinicContact": "062-225-7300",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "신형" },
+                { "id": 2, "type": "프린트", "version": "블록1" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/07/05",
+            "customerType": "B2C",
+            "b2bContract": ""
+        },
+        {
+            "id": 28,
+            "name": "용인 서울차오름치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 184 415 586",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "김민정 실장님",
+                    "phone": "010-9476-1022"
+                }
+            ],
+            "clinicContact": "0507-1374-2930",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "신형" },
+                { "id": 2, "type": "프린트", "version": "블록1" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/07/09",
+            "customerType": "퍼스트",
+            "b2bContract": "퍼스트 3/30"
+        },
+        {
+            "id": 29,
+            "name": "베트남 로이스",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "910 963 771",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [],
+            "clinicContact": "",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "신형" },
+                { "id": 1, "type": "세척기", "version": "신형" },
+                { "id": 2, "type": "프린트", "version": "블록2" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/07/13",
+            "customerType": "AW",
+            "b2bContract": "하이니스 13/40"
+        },
+        {
+            "id": 30,
+            "name": "광명 중앙대학교광명병원",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 781 143 198",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "임지연 총괄 담당자",
+                    "phone": "010-2431-3408"
+                },
+                {
+                    "id": 1,
+                    "name": "김나예 선생님",
+                    "phone": "010-5204-3428"
+                },
+                {
+                    "id": 2,
+                    "name": "차난영 선생님",
+                    "phone": "010-8739-4199"
+                }
+            ],
+            "clinicContact": "",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "신형" },
+                { "id": 2, "type": "프린트", "version": "블록1" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/07/18",
+            "customerType": "대학병원",
+            "b2bContract": ""
+        },
+        {
+            "id": 31,
+            "name": "인천 플란트구강악안면치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 743 320 720",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "정종현 원장님",
+                    "phone": "010-5284-2858"
+                },
+                {
+                    "id": 1,
+                    "name": "김종형 기공실장님",
+                    "phone": "010-3221-6570"
+                }
+            ],
+            "clinicContact": "032-885-7528",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "신형" },
+                { "id": 1, "type": "세척기", "version": "신형" },
+                { "id": 2, "type": "프린트", "version": "블록2" }
+            ],
+            "printerIssues": [
+                {
+                    "contents": "24.08.23 인레이 출력 실패로 프로파일 변경 후 방문하여 플레이트 조정 진행",
+                    "status": "Done"
+                },
+                {
+                    "contents": "24.08.28 원격 접속 불가로 인하여 방문하여 조치",
+                    "status": "Done"
+                }
+            ],
+            "installationDate": "2024/07/30",
+            "customerType": "B2C,테스트 및 연자",
+            "b2bContract": ""
+        },
+        {
+            "id": 32,
+            "name": "성동 서울스마트치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 792 941 933",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "최민식 원장님",
+                    "phone": "010-3141-8600"
+                },
+                {
+                    "id": 1,
+                    "name": "치과 업무폰",
+                    "phone": "010-3141-8600"
+                }
+            ],
+            "clinicContact": "02-462-2875",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "신형" },
+                { "id": 1, "type": "세척기", "version": "신형" },
+                { "id": 2, "type": "프린트", "version": "블록2" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/08/06",
+            "customerType": "B2C,테스트 및 연자",
+            "b2bContract": ""
+        },
+        {
+            "id": 33,
+            "name": "안산 서울안심치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 464 057 483",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "허재녕 원장님",
+                    "phone": "010-7200-0087"
+                },
+                {
+                    "id": 1,
+                    "name": "이원일 소장님",
+                    "phone": "010-6831-2804"
+                }
+            ],
+            "clinicContact": "032-882-2228",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "신형" },
+                { "id": 1, "type": "세척기", "version": "신형" },
+                { "id": 2, "type": "프린트", "version": "블록2" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/08/20",
+            "customerType": "B2C",
+            "b2bContract": ""
+        },
+        {
+            "id": 34,
+            "name": "마산 미래치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 541 661 559",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "김수미 선생님",
+                    "phone": "010-3443-6933"
+                }
+            ],
+            "clinicContact": "055-222-5000",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "구형" },
+                { "id": 1, "type": "세척기", "version": "구형" },
+                { "id": 2, "type": "프린트", "version": "블록2" }
+            ],
+            "printerIssues": [
+                {
+                    "contents": "24.08.21 설치 시 네트워크 이슈로 인하여 설치 보류, 추후 재방문",
+                    "status": "Done"
+                },
+                {
+                    "contents": "24.08.29 프린트 연결 오류로 방문 > 미니PC 변경",
+                    "status": "Done"
+                }
+            ],
+            "installationDate": "2024/08/21",
+            "customerType": "퍼스트",
+            "b2bContract": ""
+        },
+        {
+            "id": 35,
+            "name": "광주 조선대학교 치과병원",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 455 052 059",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "조형훈 교수님",
+                    "phone": "010-9220-3534"
+                },
+                {
+                    "id": 1,
+                    "name": "송경미 선생님",
+                    "phone": "010-5627-3605"
+                }
+            ],
+            "clinicContact": "062-360-5000",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "신형" },
+                { "id": 1, "type": "세척기", "version": "신형" },
+                { "id": 2, "type": "프린트", "version": "블록2.1" }
+            ],
+            "printerIssues": [
+                {
+                    "contents": "24.08.28 스캐너 이슈로 추후 재방문",
+                    "status": "Done"
+                },
+                {
+                    "contents": "24.09.10 재방문",
+                    "status": "Done"
+                }
+            ],
+            "installationDate": "2024/08/28",
+            "customerType": "대학병원,테스트 및 연자",
+            "b2bContract": ""
+        },
+        {
+            "id": 36,
+            "name": "포항 이결치과",
+            "anyDeskIds": [
+                {
+                    "id": 0,
+                    "anyDeskId": "1 344 864 324",
+                    "comment": ""
+                }
+            ],
+            "managerContacts": [
+                {
+                    "id": 0,
+                    "name": "강준구 원장님",
+                    "phone": "010-3730-7969"
+                },
+                {
+                    "id": 1,
+                    "name": "황인혜 선생님",
+                    "phone": "010-4546-2642"
+                }
+            ],
+            "clinicContact": "054-281-2090",
+            "equipments": [
+                { "id": 0, "type": "경화기", "version": "신형" },
+                { "id": 1, "type": "세척기", "version": "신형" },
+                { "id": 2, "type": "프린트", "version": "블록2.1" }
+            ],
+            "printerIssues": [],
+            "installationDate": "2024/09/02",
+            "customerType": "B2C",
+            "b2bContract": ""
+        }
+    ]
+}
